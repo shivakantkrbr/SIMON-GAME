@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #011F3F;
+  
+}
+.body-opacity{
+  opacity: 0.5;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+  line-height: 1.5;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+.start-btn{
+  margin: 25px;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20px;
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color: white;
+  border-color: green;
+  cursor: pointer;
+}
+.restart-btn{
+  margin: 25px;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20px;
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color: white;
+  border-color: green;
+  cursor: pointer;
+}
+
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.last-line{
+  /* font-family: 'Press Start 2P', scursive; */
+  font-family: monospace;
+  font-size: 2rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.guide{
+  font-size: 1rem;
+  color: white;
+  font-family: monospace;
+  text-decoration: underline;
+  color: lightblue;
+  /* color: yellow; */
+}
+
+.background{
+  height: 100%;
+  color: black;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.help{
+  position: absolute;
+    z-index: 5;
+    /* margin: 50px; */
+    padding: 50px;
+    background-color: #011F3F;
+    color: white;
+    font-size: 3rem;
+    font-family: monospace;
+    height: 100%;
+}
+span{
+  cursor: pointer;
+}
+.guide{
+  cursor: pointer;
+}
+
+td{
+  background-color: #013063;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 1080px){
+  .guide{
+    font-size: 3rem;
+  }
+  body{
+    overflow: hidden;
+  }
+
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+  .help{
+    position: absolute;
+    z-index: 5;
+    /* margin: 50px; */
+    padding: 50px;
+    background-color: #011F3F;
+    color: white;
+    font-size: 3rem;
+    font-family: monospace;
+    height: 100%;
+  }
+  
+}
